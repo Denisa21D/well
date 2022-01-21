@@ -1,0 +1,84 @@
+body{
+	margin:0;
+	padding:0;
+	background:url("images/header-bg.jpg");
+	background-size:cover;
+	font-family:sans-serif;
+	background-repeat: no-repeat;
+}
+.SignupBox{
+	
+	position:absolute;
+	top:10%;
+	left:36%;
+	border-radius: 30px;
+	width:350px;
+	height:620px;
+	padding:80px 40px;
+	box-sizing:border-box;
+	background:rgba(0,0,0,.5);
+}
+.user{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	overflow : hidden;
+	position:absolute;
+	top:calc(-70px/2);
+	left:calc(50% - 50px);
+	
+}
+h2{
+	border-bottom:px solid #fff;
+	margin:0;
+	padding:0 0 20px;
+	color:#12C05B;
+	text-align:center;
+}
+.SignupBox p{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+	color:#fff;
+	
+	
+}
+.SignupBox input{
+	width:100%;
+	margin-bottom:20px;
+}
+.SignupBox input[type="text"],
+.SignupBox input[type="password"]
+{
+	border:none;
+	border-bottom:1px solid #fff;
+	background: transparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+}
+::placeholder{
+	color:rgba(255,255,255,.5);
+}
+.SignupBox input[type="submit"]{
+    border:none;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+	background:#00CBCE;
+    cursor:pointer;
+	border-radius:20px;
+}
+.SignupBox input[type="submit"]:hover{
+	background:#30ACDD;
+    color:#262626;
+}
+.SignupBox a{
+	
+color:#fff;
+font-size:14px;
+font-weight:bold;	
+	
+}
